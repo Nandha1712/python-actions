@@ -5,4 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install-requirements
-        run: pip install -r requirements.txt
+        run: pwd
+      - name: install-requirements2
+        run: ls
+      - name: install-requirements3
+        run: cd ..
+      - name: install-requirements4
+        run: pwd
+      - name: install-requirements5
+        run: ls
